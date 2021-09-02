@@ -8,4 +8,5 @@ if [ ! -f .latexmkrc ]; then
 fi
 
 # make pdf
+cd $DIRECTORY
 latexmk $INPUT_LATEX_FILE_NAME

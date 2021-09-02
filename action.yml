@@ -6,6 +6,10 @@ inputs:
     description: "Compile Tex File"
     required: true
     default: "main.tex"
+  DIRECTORY:
+    description: "Working Directory"
+    required: true
+    default: "./"
 runs:
   using: "docker"
   image: "Dockerfile"
