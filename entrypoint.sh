@@ -9,4 +9,4 @@ fi
 
 # make pdf
 cd $DIRECTORY
-latexmk $INPUT_LATEX_FILE_NAME
+latexmk $LATEX_FILE_NAME

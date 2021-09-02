@@ -13,3 +13,6 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+  env:
+    DIRECTORY: ${{ inputs.DIRECTORY }}
+    LATEX_FILE_NAME: ${{ inputs.LATEX_FILE_NAME }}
